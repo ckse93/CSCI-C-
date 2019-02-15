@@ -13,6 +13,7 @@ class DateTest : public ::testing::Test {
     // code here will execute just before the test ensues
 	first_day = Date(2018, 9, 4);
 	last_day = Date(2018, 12, 11);
+	CHAN_B_DAY = Date(1993,06,17);
   }
  protected:
   Date first_day;          // first day of classes
