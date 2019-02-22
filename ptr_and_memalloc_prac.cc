@@ -9,7 +9,7 @@ int main (){
 										// if there is not enough space in heap, it will just return nullptr
 										//dynamically allocated stuffs are in heap space, others are in stack. 
 	if (foo == nullptr){
-		cout << "Not enough space in heap"<<endl;
+		cout << "Not enough space in heap"<<endl;		// basically like a thry catch 
 		}
 	for (int i = 0 ; i<MAXLEN ; i++){	//conventional way to access array element
 		foo[i] = i+10;
